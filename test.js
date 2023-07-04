@@ -21,7 +21,7 @@ app.post('/operator/',(req,res)=>{
 		break;
 
 		case "subtraction":
-		result = subtract(num1, num2);
+		result = subtract(num1, num2);//testing
 		break;
 
 		case "multiplication":
