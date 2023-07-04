@@ -11,7 +11,7 @@ app.get('/:operator/:num1/:num2', function(req,res){
 
 	switch(operator){
 		case "addition":
-		result = add(num1, num2);
+		result = add(num1, num2);//testing pr
 		break;
 
 		case "subtraction":
